@@ -1,4 +1,4 @@
-with open("input_02.txt", 'r') as passwords:
+with open("./puzzles/input_02.txt", 'r') as passwords:
 
 	good_passwords = 0
 	part_two = 0
@@ -29,4 +29,4 @@ with open("input_02.txt", 'r') as passwords:
 print(f"Number of valid passwords: {good_passwords}")
 print(f"Number of valid passwords, part two: {part_two}")
 
-print(password[lower-1], password[upper-1], password[lower-1] == letter and password[upper-1] != letter)
+#print(password[lower-1], password[upper-1], password[lower-1] == letter and password[upper-1] != letter)
